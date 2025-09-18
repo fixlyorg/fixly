@@ -4,6 +4,7 @@ import axios from "axios";
 import Navbar from "./Navbar";
 import "./login.css";
 import { useAuth } from "../context/AuthContext";
+import Button from "./admin/shared/Button";
 
 function Login() {
   const [email, setEmail] = useState("");
