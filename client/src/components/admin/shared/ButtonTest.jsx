@@ -105,8 +105,8 @@ function Login() {
               />
             </div>
 
-          <button type="submit" className="login-button">Login</button>
-
+            <Button type="submit" variant="primary" size="md">Login</Button>
+          </form>
 
           <div className="login-footer">
             <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
